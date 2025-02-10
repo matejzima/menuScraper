@@ -1,0 +1,26 @@
+{
+  "Polévka": [
+    "Thajská ostrá a kyselá polévka s vepřovým masem, hlívou ústřičnou a rajčaty",
+    "Kuřecí vývar s wontony plněnými kuřetem a krevetami, jarní cibulka, chilli pasta",
+    "Rajčatová šorba s kuřecím masem a koriandrem",
+    "Rybí polévka se žlutým curry a kokosovým mlékem, koriandr a sójové klíčky"
+  ],
+  "Dim sum, Buns and Rolls": [
+    "Gyoza plněná pečeným vepřovým bokem a kimchi, sójová a miso omáčka, restovaný pórek s houbami: 5ks",
+    "Bakwan Jagung - Smažené kukuřičné placky, ledový salát s koriandrem, karotkou a okurkou, sladká chilli omáčka: 4ks",
+    "Thajské rybí koláčky smažené v panko strouhance, pikantní zeleninový salát s dresinkem z kokosového mléka a citrónové trávy: 5ks",
+    "Jarní závitky s kuřecím masem, hoisin omáčka, salát z nakládané zeleniny: 4ks"
+  ],
+  "Gril": [
+    "Bo Kho: Vietnamské dušené hovězí maso s bylinkami a jasmínovou rýží",
+    "Thajské dušené hovězí na bylinkách, cuketa, zelené fazole, brambory a jasmínová rýže",
+    "Krůtí masala s kešu ořechy, basmati rýže, raita",
+    "Bibimbap: Restované hovězí maso, sázené vejce, zelenina a rýže"
+  ],
+  "Wok": [
+    "Vepřové chilli s fazolkami, sladkou sójovou omáčkou a jasmínová rýže",
+    "Dakgangjeong: Korejské křupavé kuře, jasmínová rýže",
+    "Restované vaječné nudle, hovězí dušené s indonéskou pepřovou omáčkou, bok choi",
+    "Restované kuřecí s arašídy, fazolkami, chilli a hlívou ústřičnou, jasmínová rýže"
+  ]
+}
