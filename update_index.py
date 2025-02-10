@@ -27,7 +27,7 @@ def main():
     sia_html = build_html_from_json(sia_data)
 
     # 3) Read the existing index.html
-    with open("/web/index.html", "r", encoding="utf-8") as f:
+    with open("index.html", "r", encoding="utf-8") as f:
         html = f.read()
 
     # 4) For each menu, replace everything from
@@ -57,7 +57,7 @@ def main():
     )
 
     # 6) Write the updated HTML back to index.html
-    with open("/web/index.html", "w", encoding="utf-8") as f:
+    with open("index.html", "w", encoding="utf-8") as f:
         f.write(html)
 
     print("index.html updated with new menu data!")
