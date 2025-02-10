@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Daily Menu</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f7f7f7;
+    }
+    h1 {
+      text-align: center;
+    }
+    .restaurant-section {
+      background: #fff;
+      border-radius: 5px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+      margin: 20px auto;
+      max-width: 600px;
+      padding: 20px;
+    }
+    h2 {
+      margin-top: 0;
+      color: #333;
+      font-size: 1.6rem; /* Slightly bigger than default */
+      margin-bottom: 10px;
+    }
+    /* The "section headings" inside your dynamically generated HTML 
+       (like "Polévky," "Hlavní jídla") are wrapped in <strong>.
+       Make them stand out as sub-headers. */
+    li > strong {
+      display: block;        /* Each heading on its own line */
+      font-size: 1.2rem;     /* Increase size for clarity */
+      margin: 1rem 0 0.5rem; /* Add vertical spacing */
+      color: #444;
+    }
+    ul {
+      list-style: none;       /* Remove default bullets */
+      padding-left: 0;
+    }
+    /* For the nested lists (the actual items under each heading) */
+    ul ul {
+      margin-left: 1.2rem;    /* Indent a bit so items stand out */
+      margin-bottom: 1rem;
+    }
+    /* More spacing between individual menu items */
+    ul ul li {
+      margin-bottom: 0.5rem;
+    }
+    footer {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>Daily Menu</h1>
+
+  <!-- Na Čepu section -->
+  <div class="restaurant-section">
+    <h2>Na Čepu</h2>
+    <div id="nacepu-menu"><ul>
+  <li><strong>Polévky</strong>
+    <ul>
+      <li>Hovězí vývar s masem a nudlemi</li>
+      <li>Špenátový krém</li>
+    </ul>
+  </li>
+  <li><strong>Hlavní jídla</strong>
+    <ul>
+      <li>Hovězí tokáň na víně, houskový knedlík</li>
+      <li>Krůtí medailonky, dijonská omáčka, krokety</li>
+      <li>Vepřový řízek, bramborový salát</li>
+      <li>Zeleninový cous cous s vepřovou panenkou</li>
+      <li>Zeleninový salát s kuřecími stripsy, sweet mayo, toast</li>
+    </ul>
+  </li>
+  <li><strong>Menu</strong>
+    <ul>
+      <li>Hovězí vývar s masem a nudlemi & penne amatriciana, mačkaná mozzarella</li>
+    </ul>
+  </li>
+</ul></div>
+  </div>
+
+  <!-- Sia section -->
+  <div class="restaurant-section">
+    <h2>Sia</h2>
+    <div id="sia-menu"><ul>
+  <li><strong>Polévka</strong>
+    <ul>
+      <li>Thajská ostrá a kyselá polévka s vepřovým masem, hlívou ústřičnou a rajčaty</li>
+      <li>Kuřecí vývar s wontony plněnými kuřetem a krevetami, jarní cibulka, chilli pasta</li>
+      <li>Rajčatová šorba s kuřecím masem a koriandrem</li>
+      <li>Rybí polévka se žlutým curry a kokosovým mlékem, koriandr a sójové klíčky</li>
+    </ul>
+  </li>
+  <li><strong>Dim sum, Buns and Rolls</strong>
+    <ul>
+      <li>Gyoza plněná pečeným vepřovým bokem a kimchi, sójová a miso omáčka, restovaný pórek s houbami: 5ks</li>
+      <li>Bakwan Jagung - Smažené kukuřičné placky, ledový salát s koriandrem, karotkou a okurkou, sladká chilli omáčka: 4ks</li>
+      <li>Thajské rybí koláčky smažené v panko strouhance, pikantní zeleninový salát s dresinkem z kokosového mléka a citrónové trávy: 5ks</li>
+      <li>Jarní závitky s kuřecím masem, hoisin omáčka, salát z nakládané zeleniny: 4ks</li>
+    </ul>
+  </li>
+  <li><strong>Gril</strong>
+    <ul>
+      <li>Bo Kho: Vietnamské dušené hovězí maso s bylinkami a jasmínovou rýží</li>
+      <li>Thajské dušené hovězí na bylinkách, cuketa, zelené fazole, brambory a jasmínová rýže</li>
+      <li>Krůtí masala s kešu ořechy, basmati rýže, raita</li>
+      <li>Bibimbap: Restované hovězí maso, sázené vejce, zelenina a rýže</li>
+    </ul>
+  </li>
+  <li><strong>Wok</strong>
+    <ul>
+      <li>Vepřové chilli s fazolkami, sladkou sójovou omáčkou a jasmínová rýže</li>
+      <li>Dakgangjeong: Korejské křupavé kuře, jasmínová rýže</li>
+      <li>Restované vaječné nudle, hovězí dušené s indonéskou pepřovou omáčkou, bok choi</li>
+      <li>Restované kuřecí s arašídy, fazolkami, chilli a hlívou ústřičnou, jasmínová rýže</li>
+    </ul>
+  </li>
+</ul></div>
+  </div>
+
+  <footer>
+    Last Updated: <span id="last-updated">2025-02-10 19:51</span>
+  </footer>
+</body>
+</html>
