@@ -1,10 +1,10 @@
 services:
   scraper:
     build:
-      context: ./scraper
+      context: ./webscraper
       dockerfile: Dockerfile
     volumes:
-      - ./scraper:/app            # In case you want to edit scripts on the host
+      - ./webscraper:/app            # In case you want to edit scripts on the host
       - ./web:/web                # So update_index.py can overwrite index.html
     # No command runs by default — you can run on demand or schedule it.
     # Or if you want it to run right away, you can set "command: python /app/update_index.py"
