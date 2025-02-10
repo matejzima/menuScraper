@@ -14,5 +14,5 @@ services:
     volumes:
       - ./web:/usr/share/nginx/html:ro
     ports:
-      - "80:80"
+      - "1000:80"
 
