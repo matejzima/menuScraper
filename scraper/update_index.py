@@ -57,7 +57,7 @@ def main():
     )
 
     # 6) Write the updated HTML back to index.html
-    with open("index.html", "w", encoding="utf-8") as f:
+    with open("/web/index.html", "w", encoding="utf-8") as f:
         f.write(html)
 
     print("index.html updated with new menu data!")
